@@ -41,3 +41,4 @@ en:
     error_login: "Invalid email/password combination"
   text:
     new_user: "New user?"
+    remember_me: "Remember me on this computer"
