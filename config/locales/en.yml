@@ -5,8 +5,24 @@ en:
   home:
     home_title_desc: "This is the home page for the sample application."
     home_welcome: "Welcome to the Sample App"
-    home_submainIdea: This is the home page for the sample application.
+    home_submainIdea: "This is the home page for the sample application."
   link:
     link_ruby: "Ruby on Rails Tutorial"
     link_signup: "Sign up now!"
-
+    link_about: "About"
+    link_contact: "Contact"
+    link_news: "News"
+    link_home: "Home"
+    link_help: "Help"
+    link_login: "Log in"
+    link_signUp: "Sign Up"
+  footer:
+    footer_name: "The Ruby on Rails Tutorial"
+    author: "by Michael Hartl"
+  sign_up:
+    signUp_title: "Sign up"
+    signUp_desc: "This will be a signup page for new users."
+  contact:
+    contact_title: "Contact"
+    contact_desc: "Contact the Ruby on Rails Tutorial about the sample app at
+    the contact page."
