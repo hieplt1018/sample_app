@@ -12,6 +12,9 @@ en:
     link_about: "About"
     link_contact: "Contact"
     link_news: "News"
+    link_home: "Home"
+    link_help: "Help"
+    link_login: "Log in"
   footer:
     footer_name: "The Ruby on Rails Tutorial"
     author: "by Michael Hartl"
