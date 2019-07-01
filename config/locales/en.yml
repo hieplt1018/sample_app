@@ -9,4 +9,16 @@ en:
   link:
     link_ruby: "Ruby on Rails Tutorial"
     link_signup: "Sign up now!"
-
+    link_about: "About"
+    link_contact: "Contact"
+    link_news: "News"
+  footer:
+    footer_name: "The Ruby on Rails Tutorial"
+    author: "by Michael Hartl"
+  sign_up:
+    signUp_title: "Sign up"
+    signUp_desc: "This will be a signup page for new users."
+  contact:
+    contact_title: "Contact"
+    contact_desc: "Contact the Ruby on Rails Tutorial about the sample app at
+    the contact page."
