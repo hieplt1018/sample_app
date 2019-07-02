@@ -26,3 +26,10 @@ en:
     contact_title: "Contact"
     contact_desc: "Contact the Ruby on Rails Tutorial about the sample app at
     the contact page."
+  form_signIn:
+    confirmation: "Confirmation"
+    submit: "Create my account"
+  error_page:
+    signIn_message: "The form contains"
+    succeed_message: "Welcome to the Sample App!"
+    error_message: "Don't find user"
