@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  VALID_EMAIL_REGEX = Settings.VALID_EMAIL_REGEX
+  VALID_EMAIL_REGEX = Settings.email_regex
 
   before_save { email.downcase! }
 
