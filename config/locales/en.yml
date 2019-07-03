@@ -16,10 +16,15 @@ en:
     link_help: "Help"
     link_login: "Log in"
     link_signUp: "Sign Up"
+    link_users: "Users"
+    link_account: "Account"
+    link_profile: "Profile"
+    link_settings: "Setting"
+    link_logOut: "Log out"
   footer:
     footer_name: "The Ruby on Rails Tutorial"
     author: "by Michael Hartl"
-  sign_up:
+    sign_up: "New user?"
     signUp_title: "Sign up"
     signUp_desc: "This will be a signup page for new users."
   contact:
@@ -33,3 +38,6 @@ en:
     signIn_message: "The form contains"
     succeed_message: "Welcome to the Sample App!"
     error_message: "Don't find user"
+    error_login: "Invalid email/password combination"
+  text:
+    new_user: "New user?"
