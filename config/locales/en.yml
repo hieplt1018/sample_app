@@ -5,8 +5,39 @@ en:
   home:
     home_title_desc: "This is the home page for the sample application."
     home_welcome: "Welcome to the Sample App"
-    home_submainIdea: This is the home page for the sample application.
+    home_submainIdea: "This is the home page for the sample application."
   link:
     link_ruby: "Ruby on Rails Tutorial"
     link_signup: "Sign up now!"
-
+    link_about: "About"
+    link_contact: "Contact"
+    link_news: "News"
+    link_home: "Home"
+    link_help: "Help"
+    link_login: "Log in"
+    link_signUp: "Sign Up"
+    link_users: "Users"
+    link_account: "Account"
+    link_profile: "Profile"
+    link_settings: "Setting"
+    link_logOut: "Log out"
+  footer:
+    footer_name: "The Ruby on Rails Tutorial"
+    author: "by Michael Hartl"
+    sign_up: "New user?"
+    signUp_title: "Sign up"
+    signUp_desc: "This will be a signup page for new users."
+  contact:
+    contact_title: "Contact"
+    contact_desc: "Contact the Ruby on Rails Tutorial about the sample app at
+    the contact page."
+  form_signIn:
+    confirmation: "Confirmation"
+    submit: "Create my account"
+  error_page:
+    signIn_message: "The form contains"
+    succeed_message: "Welcome to the Sample App!"
+    error_message: "Don't find user"
+    error_login: "Invalid email/password combination"
+  text:
+    new_user: "New user?"
