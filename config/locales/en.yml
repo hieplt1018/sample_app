@@ -30,6 +30,7 @@ en:
     link_delete: "delete"
     link_activate: "Activate"
     link_reset: "(forgot password)"
+    link_current: "view my profile"
   footer:
     footer_name: "The Ruby on Rails Tutorial"
     author: "by Michael Hartl"
@@ -77,7 +78,18 @@ en:
     exprie_password: "Password reset has expired."
     reset_success: "Password has been reset."
     not_findUser: "Can not find user"
+    timestamp_post: "Posted $%{timestamp} ago."
+    micropost: "Microposts"
+    micropost_create: "Micropost created!"
+    microposts: "micropost"
+    content_microposts: "Compose new micropost..."
+    confirm_delete: "You sure?"
+    micropost_delete: "Micropost deleted"
+    image_size: "should be less than 5MB"
+    file_js: "Maximum file size is 5MB. Please choose a smaller file."
+    micropostFeed: "Micropost Feed"
   desc:
     edit_desc: "Update your profile"
   button:
     edit_btn: "Save changes"
+    post_btn: "Post"

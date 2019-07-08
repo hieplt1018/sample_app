@@ -2,7 +2,23 @@
 <p>
   <%= t "home.home_title_desc" %>
 </p>
-<div class="center jumbotron">
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "text.micropostFeed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
   <h1>
     <%= t "home.home_welcome" %>
     <%= link_to t("link.link_ruby"), Settings.ruby %>
@@ -14,6 +30,7 @@
     </h2>
 
   <%= link_to t("link.link_signup"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
+  </div>
 
-<%= link_to image_tag("rails.png", alt: "rails_logo"), Settings.ruby %>
+  <%= link_to image_tag("rails.png", alt: "rails_logo"), Settings.ruby %>
+<% end %>
