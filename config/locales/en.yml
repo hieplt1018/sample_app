@@ -2,6 +2,8 @@ en:
   titles:
     base_title: "Ruby on Rails Tutorial Sample App"
     home_title: "Sample App"
+    edit_title: "Edit user"
+    index_title: "All users"
   home:
     home_title_desc: "This is the home page for the sample application."
     home_welcome: "Welcome to the Sample App"
@@ -21,6 +23,8 @@ en:
     link_profile: "Profile"
     link_settings: "Setting"
     link_logOut: "Log out"
+    link_edit: "change"
+    link_delete: "delete"
   footer:
     footer_name: "The Ruby on Rails Tutorial"
     author: "by Michael Hartl"
@@ -39,6 +43,15 @@ en:
     succeed_message: "Welcome to the Sample App!"
     error_message: "Don't find user"
     error_login: "Invalid email/password combination"
+    edit_success: "Profile updated"
+    edit_danger: "Please log in."
+    delete_success: "User deleted"
+    delete_fail: "You can not delete this user"
   text:
     new_user: "New user?"
     remember_me: "Remember me on this computer"
+    confirm: "You sure?"
+  desc:
+    edit_desc: "Update your profile"
+  button:
+    edit_btn: "Save changes"
