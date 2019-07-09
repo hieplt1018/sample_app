@@ -4,6 +4,7 @@ en:
     home_title: "Sample App"
     edit_title: "Edit user"
     index_title: "All users"
+    email_title: "Account activation"
   home:
     home_title_desc: "This is the home page for the sample application."
     home_welcome: "Welcome to the Sample App"
@@ -25,6 +26,7 @@ en:
     link_logOut: "Log out"
     link_edit: "change"
     link_delete: "delete"
+    link_activate: "Activate"
   footer:
     footer_name: "The Ruby on Rails Tutorial"
     author: "by Michael Hartl"
@@ -51,6 +53,15 @@ en:
     new_user: "New user?"
     remember_me: "Remember me on this computer"
     confirm: "You sure?"
+    email_text: "Welcome to the Sample App! Click on the link below to activate
+      your account:"
+    hi: "Hi"
+    email_activate: "Welcome to the Sample App! Click on the link below to
+      activate your account:"
+    require_activate: "Please check your email to activate your account."
+    activated_msg: "Account activated!"
+    fail_activated: "Invalid activation link"
+    not_activated: "Account not activated."
   desc:
     edit_desc: "Update your profile"
   button:
