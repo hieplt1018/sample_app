@@ -5,6 +5,8 @@ en:
     edit_title: "Edit user"
     index_title: "All users"
     email_title: "Account activation"
+    forget_title: "Forgot Password"
+    email_reset_title: "Password reset"
   home:
     home_title_desc: "This is the home page for the sample application."
     home_welcome: "Welcome to the Sample App"
@@ -27,6 +29,7 @@ en:
     link_edit: "change"
     link_delete: "delete"
     link_activate: "Activate"
+    link_reset: "(forgot password)"
   footer:
     footer_name: "The Ruby on Rails Tutorial"
     author: "by Michael Hartl"
@@ -49,6 +52,8 @@ en:
     edit_danger: "Please log in."
     delete_success: "User deleted"
     delete_fail: "You can not delete this user"
+    not_findEmail: "Email address not found"
+    error_reset_blank: "can't be empty"
   text:
     new_user: "New user?"
     remember_me: "Remember me on this computer"
@@ -62,6 +67,16 @@ en:
     activated_msg: "Account activated!"
     fail_activated: "Invalid activation link"
     not_activated: "Account not activated."
+    submit: "Submit"
+    reset_password: "Email sent with password reset instructions"
+    reset_content: "To reset your password click the link below:"
+    reset_content2: "This link will expire in two hours."
+    reset_content3: "If you did not request your password to be reset, please
+      ignore this email and your password will stay as it is."
+    update_btn: "Update password"
+    exprie_password: "Password reset has expired."
+    reset_success: "Password has been reset."
+    not_findUser: "Can not find user"
   desc:
     edit_desc: "Update your profile"
   button:
