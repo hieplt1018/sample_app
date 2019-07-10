@@ -10,3 +10,6 @@ size_avatar: 80
 accountPerPage: 10
 hour_expired: 2
 content_post: 140
+image_size: 5
+bit_image: 1024
+

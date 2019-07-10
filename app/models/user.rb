@@ -5,6 +5,8 @@ class User < ApplicationRecord
   before_save   :downcase_email
   before_create :create_activation_digest
 
+  has_many :microposts
+
   validates :name, presence: true, length: { maximum: Settings.max_name }
   validates :email, presence: true, length: { maximum: Settings.max_email },
     format: { with: VALID_EMAIL_REGEX }, uniqueness: { case_sensitive: false }
@@ -57,6 +59,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.hour_expired.hours.ago
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   private
