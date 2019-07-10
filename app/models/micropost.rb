@@ -4,7 +4,9 @@ class Micropost < ApplicationRecord
   validates :content, presence: true, length: { maximum: Settings.content_post }
   validate  :picture_size
 
-  scope, :published -> {order created_at: :desc}
+  delegate :name, to: :user, prefix: true
+
+  scope :published, -> { order created_at: desc}
   mount_uploader :picture, PictureUploader
 
   private
