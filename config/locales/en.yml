@@ -7,6 +7,8 @@ en:
     email_title: "Account activation"
     forget_title: "Forgot Password"
     email_reset_title: "Password reset"
+    following_title: "Following"
+    followers_title: "Followers"
   home:
     home_title_desc: "This is the home page for the sample application."
     home_welcome: "Welcome to the Sample App"
@@ -88,8 +90,12 @@ en:
     image_size: "should be less than 5MB"
     file_js: "Maximum file size is 5MB. Please choose a smaller file."
     micropostFeed: "Micropost Feed"
+    following: "following"
+    followers: "followers"
   desc:
     edit_desc: "Update your profile"
   button:
     edit_btn: "Save changes"
     post_btn: "Post"
+    following_btn: "Follow"
+    unfollow_btn: "Unfollow"
